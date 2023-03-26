@@ -5,10 +5,8 @@
   margin: 0;
   font-family: "Work Sans";
 }
-body {
-  align-items: center;
-  justify-content: center;
-  padding: 50px 240px;
+section {
+  margin: 0px 140px;
 }
 .primary {
   padding: 20px 25px;
@@ -20,11 +18,10 @@ body {
   font-size: 20px;
 }
 .p {
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-  }
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
 /* utility end */
 header {
   display: flex;
@@ -41,8 +38,8 @@ header {
 }
 /* menu end */
 section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 
   margin-top: 130px;
@@ -55,15 +52,89 @@ section {
   gap: 30px;
 }
 .page-title h1 {
-  
   font-weight: 700;
   font-size: 64px;
 }
 
-.banner{
-    margin-top: 50px;
+.banner {
+  margin-top: 50px;
 }
-.banner img{
-    width: 1440px;
+.banner img {
+  width: 100%;
 }
 /* landing page end */
+.feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+.feature-img {
+  
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.feature-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feature-title h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+.feature-title p {
+  width: 537px;
+  text-align: left;
+}
+/* feature end */
+.description{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  
+  justify-content: center;
+  align-items: center;
+}
+.description>p{
+  max-width: 514px;
+  word-wrap: normal;
+}
+.description-about{
+  max-width: 514px;
+}
+
+.description-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+  
+}
+.description-box{
+  background-color: #9c0b0b;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 20px;
+  max-width: 514px;
+  
+
+}
+.description-title>.p{
+  margin-bottom: 20px;
+  width: 514px;
+  
+}
+
+.description-box h1{
+  word-wrap: normal;
+  font-weight: 600;
+font-size: 20px;
+
+}
+.decription-img img{
+  width: 613px;
+  height: 850px;
+}
